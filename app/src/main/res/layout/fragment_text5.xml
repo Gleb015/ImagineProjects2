@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+   >
+
+    <TextView
+        android:id="@+id/txt_text5_1"
+        android:layout_width="272dp"
+        android:layout_height="100dp"
+        android:background="@drawable/rounded_corner"
+        android:gravity="center"
+        android:text="@string/txt_text5_1"
+        android:textColor="@color/colorDarkBlue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025" />
+
+    <TextView
+        android:id="@+id/txt_prg_text5"
+        android:layout_width="352dp"
+        android:layout_height="254dp"
+        android:background="@color/colorDarkBlue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.438" />
+
+    <EditText
+        android:id="@+id/editText_html1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorDarkLightBlue"
+        android:ems="6"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorWhite"
+        android:textCursorDrawable="@color/colorBlack"
+        app:layout_constraintBottom_toBottomOf="@+id/txt_prg_text5"
+        app:layout_constraintEnd_toEndOf="@+id/txt_prg_text5"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toStartOf="@+id/txt_prg_text5"
+        app:layout_constraintTop_toTopOf="@+id/txt_prg_text5"
+        app:layout_constraintVertical_bias="0.344" />
+
+    <EditText
+        android:id="@+id/editText_html2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorDarkLightBlue"
+        android:ems="6"
+        android:inputType="textPersonName"
+
+        android:textColor="@color/colorWhite"
+        android:textCursorDrawable="@color/colorBlack"
+        app:layout_constraintBottom_toBottomOf="@+id/txt_prg_text5"
+        app:layout_constraintEnd_toEndOf="@+id/txt_prg_text5"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toStartOf="@+id/txt_prg_text5"
+        app:layout_constraintTop_toTopOf="@+id/txt_prg_text5"
+        app:layout_constraintVertical_bias="0.856" />
+
+    <EditText
+        android:id="@+id/editText_doc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorDarkLightBlue"
+        android:ems="6"
+        android:inputType="textPersonName"
+
+        android:textColor="@color/colorWhite"
+        android:textCursorDrawable="@color/colorBlack"
+        app:layout_constraintBottom_toBottomOf="@+id/txt_prg_text5"
+        app:layout_constraintEnd_toEndOf="@+id/txt_prg_text5"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toStartOf="@+id/txt_prg_text5"
+        app:layout_constraintTop_toTopOf="@+id/txt_prg_text5"
+        app:layout_constraintVertical_bias="0.077" />
+
+
+    <EditText
+        android:id="@+id/editText_body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorDarkLightBlue"
+        android:ems="6"
+        android:inputType="textPersonName"
+
+        android:textColor="@color/colorWhite"
+        android:textCursorDrawable="@color/colorBlack"
+        app:layout_constraintBottom_toBottomOf="@+id/txt_prg_text5"
+        app:layout_constraintEnd_toEndOf="@+id/txt_prg_text5"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toStartOf="@+id/txt_prg_text5"
+        app:layout_constraintTop_toTopOf="@+id/txt_prg_text5" />
+
+    <EditText
+        android:id="@+id/editText_body2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorDarkLightBlue"
+        android:ems="6"
+        android:inputType="textPersonName"
+
+        android:textColor="@color/colorWhite"
+        android:textCursorDrawable="@color/colorBlack"
+        app:layout_constraintBottom_toBottomOf="@+id/txt_prg_text5"
+        app:layout_constraintEnd_toEndOf="@+id/txt_prg_text5"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toStartOf="@+id/txt_prg_text5"
+        app:layout_constraintTop_toTopOf="@+id/txt_prg_text5"
+        app:layout_constraintVertical_bias="0.682" />
+
+    <TextView
+        android:id="@+id/txt_text5_2"
+        android:layout_width="295dp"
+        android:layout_height="56dp"
+        android:text="@string/txt_text5_2"
+        android:textColor="@color/colorGrey"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.26"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <Button
+        android:id="@+id/btn_text5"
+        android:layout_width="151dp"
+        android:layout_height="64dp"
+        android:background="@drawable/rounded_corner"
+        android:text="Проверить"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.727" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

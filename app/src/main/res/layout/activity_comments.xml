@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorDarkBlue"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:minHeight="?actionBarSize"
+            android:padding="@dimen/appbar_padding"
+            android:text="@string/app_name_comments"
+            android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title" />
+
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabs_comments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorDarkBlue"
+            app:tabIndicatorColor="@color/colorGreenTab" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager_comments"
+        android:layout_width="match_parent"
+        android:layout_height="669dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+
+    </androidx.viewpager.widget.ViewPager>
+
+    <TextView
+        android:id="@+id/panel_comments"
+        android:layout_width="411dp"
+        android:layout_height="88dp"
+        android:background="@color/colorWhite"
+        app:layout_anchor="@+id/view_pager_comments"
+        app:layout_anchorGravity="bottom|center" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/reset_comments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorCyan"
+        android:clickable="true"
+        app:backgroundTint="@color/colorCyan"
+        app:layout_anchor="@+id/panel_comments"
+        app:layout_anchorGravity="start|center"
+        app:srcCompat="@android:drawable/ic_popup_sync" />
+
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/transition_comments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:backgroundTint="@color/colorCyan"
+        app:layout_anchor="@+id/panel_comments"
+        app:layout_anchorGravity="end|center"
+        app:srcCompat="@android:drawable/ic_media_play" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_comments"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:foreground="@color/colorGreenTab"
+        android:max="6"
+        android:progress="1"
+        app:layout_anchor="@+id/view_pager_comments"
+        app:layout_anchorGravity="top|center" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

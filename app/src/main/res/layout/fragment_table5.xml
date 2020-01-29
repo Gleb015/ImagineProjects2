@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+
+
+    <TextView
+        android:id="@+id/txt_table5_1"
+        android:layout_width="372dp"
+        android:layout_height="282dp"
+        android:background="@color/colorDarkBlue"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.589"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.342" />
+
+    <TextView
+        android:id="@+id/txt_table5_1_1"
+        android:layout_width="92dp"
+        android:layout_height="18dp"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="@+id/txt_table5_1"
+        app:layout_constraintEnd_toEndOf="@+id/txt_table5_1"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="@+id/txt_table5_1"
+        app:layout_constraintTop_toTopOf="@+id/txt_table5_1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txt_table5_1_2"
+        android:layout_width="92dp"
+        android:layout_height="19dp"
+
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="@+id/txt_table5_1"
+        app:layout_constraintEnd_toEndOf="@+id/txt_table5_1"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="@+id/txt_table5_1"
+        app:layout_constraintTop_toTopOf="@+id/txt_table5_1"
+        app:layout_constraintVertical_bias="0.116" />
+
+    <TextView
+        android:id="@+id/txt_table5_1_3"
+        android:layout_width="91dp"
+        android:layout_height="22dp"
+
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="@+id/txt_table5_1"
+        app:layout_constraintEnd_toEndOf="@+id/txt_table5_1"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="@+id/txt_table5_1"
+        app:layout_constraintTop_toTopOf="@+id/txt_table5_1"
+        app:layout_constraintVertical_bias="0.245" />
+
+    <TextView
+        android:id="@+id/txt_table5_1_4"
+        android:layout_width="68dp"
+        android:layout_height="26dp"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="@+id/txt_table5_1"
+        app:layout_constraintEnd_toEndOf="@+id/txt_table5_1"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="@+id/txt_table5_1"
+        app:layout_constraintTop_toTopOf="@+id/txt_table5_1"
+        app:layout_constraintVertical_bias="0.843" />
+
+    <TextView
+        android:id="@+id/txt_table5_1_5"
+        android:layout_width="68dp"
+        android:layout_height="22dp"
+
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="@+id/txt_table5_1"
+        app:layout_constraintEnd_toEndOf="@+id/txt_table5_1"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="@+id/txt_table5_1"
+        app:layout_constraintTop_toTopOf="@+id/txt_table5_1"
+        app:layout_constraintVertical_bias="0.993" />
+
+    <EditText
+        android:id="@+id/txt_table5_1_6"
+        android:layout_width="228dp"
+        android:layout_height="129dp"
+        android:background="@color/colorDarkLightBlue"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:maxLines="70"
+        android:minLines="4"
+        android:textColor="@color/colorWhite"
+        android:textCursorDrawable="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="@+id/txt_table5_1"
+        app:layout_constraintEnd_toEndOf="@+id/txt_table5_1"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="@+id/txt_table5_1"
+        app:layout_constraintTop_toTopOf="@+id/txt_table5_1"
+        app:layout_constraintVertical_bias="0.553" />
+
+
+    <Button
+        android:id="@+id/btn_table5"
+        android:layout_width="182dp"
+        android:layout_height="59dp"
+        android:background="@drawable/rounded_corner"
+        android:text="Проверить"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.69" />
+
+    <TextView
+        android:id="@+id/txt_table5"
+        android:layout_width="334dp"
+        android:layout_height="127dp"
+        android:text="@string/txt_table5"
+        android:textColor="@color/colorDarkBlue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.649"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

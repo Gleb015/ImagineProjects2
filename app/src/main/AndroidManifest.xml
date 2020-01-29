@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?><manifest xmlns:android="http://schemas.android.com/apk/res/android"
+package="imagineprojects">
+<!-- 123075088609-r5q6tl67881pinme15ok7h2bc4dmj3ai.apps.googleusercontent.com -->
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.GET_ACCOUNTS" />
+<uses-permission android:name="android.permission.USE_CREDENTIALS" />
+
+<application
+    android:allowBackup="true"
+    android:icon="@drawable/icon_app"
+    android:label="@string/app_name"
+    android:supportsRtl="true"
+    android:theme="@style/AppTheme.NoActionBar">
+    <activity
+        android:name="com.example.venesuela.ui.login.ui.dashboard.web_editor"
+        android:label="@string/title_activity_web_editor"
+        android:theme="@style/AppTheme.NoActionBar"></activity>
+    <activity android:name="com.example.venesuela.MainActivity" />
+    <activity
+        android:name="com.example.venesuela.comments.comments"
+        android:label="@string/title_activity_comments"
+        android:theme="@style/AppTheme.NoActionBar" />
+    <activity
+        android:name="com.example.venesuela.design.design"
+        android:label="@string/title_activity_design"
+        android:theme="@style/AppTheme.NoActionBar" />
+    <activity
+        android:name="com.example.venesuela.css.css"
+        android:label="@string/title_activity_css"
+        android:theme="@style/AppTheme.NoActionBar" />
+    <activity android:name="com.example.venesuela.ui.login.LoginWithGoogle" />
+    <activity android:name="com.example.venesuela.Registration" />
+    <activity
+
+
+        android:name="com.example.venesuela.list.list"
+        android:label="@string/title_activity_list" />
+    <activity android:name="com.example.venesuela.Settings" />
+    <activity
+        android:name="com.example.venesuela.table.tables"
+        android:label="@string/title_activity_tables" />
+    <activity
+        android:name="com.example.venesuela.CodeEditor"
+        android:label="@string/title_activity_code_editor"
+        android:theme="@style/AppTheme.NoActionBar" />
+    <activity
+        android:name="com.example.venesuela.link.links"
+        android:label="@string/title_activity_links"
+        android:theme="@style/AppTheme.NoActionBar" />
+    <activity
+        android:name="com.example.venesuela.text.text"
+        android:label="@string/title_activity_text"
+        android:theme="@style/AppTheme.NoActionBar" />
+    <activity
+        android:name="com.example.venesuela.images.Images"
+        android:label="@string/title_activity_images"
+        android:theme="@style/AppTheme.NoActionBar" />
+
+    <!--<meta-data
+        android:name="com.google.android.actions"
+        android:resource="@xml/actions" />
+    -->
+
+    <activity
+        android:name="com.example.venesuela.base.base"
+        android:label="@string/title_activity_base"
+        android:theme="@style/AppTheme.NoActionBar" />
+    <activity
+        android:name="com.example.venesuela.ui.login.MainScreen"
+        android:label="@string/title_activity_main_screen" />
+    <activity
+        android:name="com.example.venesuela.buttons.buttons"
+        android:label="@string/title_activity_buttons"
+        android:theme="@style/AppTheme.NoActionBar"></activity>
+    <activity
+        android:name="com.example.venesuela.ui.login.LoginActivity"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme.NoActionBar">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+</application>
+
+</manifest>
+
+

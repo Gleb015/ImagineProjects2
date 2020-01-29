@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/colorBlue">
+
+    <TextView
+        android:id="@+id/txt4"
+        android:textColor="@color/colorDarkBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Попробуй самостоятельно вывести сообщение: Hello World"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.066"
+        android:background="@drawable/rounded_corner"
+        android:gravity="center_horizontal"/>
+
+
+    <TextView
+        android:id="@+id/txt4_1"
+        android:layout_width="394dp"
+        android:layout_height="169dp"
+        android:background="@color/colorDarkBlue"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.35"
+        android:textSize="24dp"/>
+
+    <Button
+        android:id="@+id/btn_ans1_base4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/panel_base"
+        android:background="@drawable/rounded_corner"
+        android:text="Hello World"
+        android:textColor="@color/colorDarkBlue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.704" />
+
+    <EditText
+        android:id="@+id/editText_base4"
+        android:layout_width="213dp"
+        android:layout_height="26dp"
+        android:background="@color/colorDarkLightBlue"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="@+id/txt4_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txt4_1"
+        app:layout_constraintVertical_bias="0.384" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

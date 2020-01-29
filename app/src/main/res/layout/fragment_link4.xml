@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ >
+
+
+        <TextView
+            android:id="@+id/txt_link4"
+            android:layout_width="238dp"
+            android:layout_height="85dp"
+            android:background="@drawable/rounded_corner"
+            android:gravity="center"
+            android:text="@string/txt_link4"
+            android:textColor="@color/colorDarkBlue"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.14" />
+
+    <TextView
+        android:id="@+id/txt_prg_link4"
+        android:layout_width="348dp"
+        android:layout_height="173dp"
+        android:background="@color/colorDarkBlue"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.365" />
+
+    <TextView
+        android:id="@+id/txt_prg_link4_1"
+        android:layout_width="92dp"
+        android:layout_height="18dp"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="@+id/txt_prg_link4"
+        app:layout_constraintEnd_toEndOf="@+id/txt_prg_link4"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="@+id/txt_prg_link4"
+        app:layout_constraintTop_toTopOf="@+id/txt_prg_link4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txt_prg_link4_2"
+        android:layout_width="92dp"
+        android:layout_height="19dp"
+
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="@+id/txt_prg_link4"
+        app:layout_constraintEnd_toEndOf="@+id/txt_prg_link4"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="@+id/txt_prg_link4"
+        app:layout_constraintTop_toTopOf="@+id/txt_prg_link4"
+        app:layout_constraintVertical_bias="0.116" />
+
+    <TextView
+        android:id="@+id/txt_prg_link4_3"
+        android:layout_width="91dp"
+        android:layout_height="22dp"
+
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="@+id/txt_prg_link4"
+        app:layout_constraintEnd_toEndOf="@+id/txt_prg_link4"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="@+id/txt_prg_link4"
+        app:layout_constraintTop_toTopOf="@+id/txt_prg_link4"
+        app:layout_constraintVertical_bias="0.245" />
+
+    <TextView
+        android:id="@+id/txt_prg_link4_4"
+        android:layout_width="68dp"
+        android:layout_height="26dp"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="@+id/txt_prg_link4"
+        app:layout_constraintEnd_toEndOf="@+id/txt_prg_link4"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="@+id/txt_prg_link4"
+        app:layout_constraintTop_toTopOf="@+id/txt_prg_link4"
+        app:layout_constraintVertical_bias="0.843" />
+
+    <TextView
+        android:id="@+id/txt_prg_link4_5"
+        android:layout_width="68dp"
+        android:layout_height="22dp"
+
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="@+id/txt_prg_link4"
+        app:layout_constraintEnd_toEndOf="@+id/txt_prg_link4"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="@+id/txt_prg_link4"
+        app:layout_constraintTop_toTopOf="@+id/txt_prg_link4"
+        app:layout_constraintVertical_bias="0.993" />
+
+    <EditText
+        android:id="@+id/editText_link4"
+        android:layout_width="139dp"
+        android:layout_height="51dp"
+        android:background="@color/colorDarkLightBlue"
+        android:ems="10"
+        android:maxLines="2"
+        android:minLines="2"
+        android:inputType="textMultiLine"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="@+id/txt_prg_link4"
+        app:layout_constraintEnd_toEndOf="@+id/txt_prg_link4"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="@+id/txt_prg_link4"
+        app:layout_constraintTop_toTopOf="@+id/txt_prg_link4"
+        app:layout_constraintVertical_bias="0.516" />
+
+    <Button
+        android:id="@+id/btn_link4"
+        android:layout_width="182dp"
+        android:layout_height="59dp"
+        android:background="@drawable/rounded_corner"
+        android:text="Проверить"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.723" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,27 @@
+<resources>
+
+
+
+    <string name="txt_settings1">
+        Логин:
+    </string>
+
+    <string name="txt_settings2">
+       Пароль:
+    </string>
+    <string name="txt_settings3">
+      Уведомления:
+    </string>
+    <string name="log_out">
+       Выйти
+    </string>
+    <string name="txt_settings_vers1">
+       Версия приложения:
+    </string>
+    <!--<string name="account_about_app"><b>Venesuela</b> - первое приложение в <b>мире</b>, где обучение направлено не на теорию (как везде), а на практику.
+        Первое, что может увидеть пользователь в <b>Venesuela</b> - уроки, пройдя основы
+        <b>html</b> и <b>CSS</b> пользователь научится создавать сайты, которые в будущем сможет использовать для своих личных целей или же
+        продать,    благодаря программе партнеру.
+    </string>
+-->
+</resources>

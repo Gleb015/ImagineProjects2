@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+
+
+        <TextView
+        android:id="@+id/txt_text8_1"
+        android:layout_width="387dp"
+        android:layout_height="110dp"
+        android:layout_marginBottom="440dp"
+        android:background="@drawable/rounded_corner"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.403"
+            android:gravity="center"
+            android:textColor="@color/colorDarkBlue"/>
+
+    <TextView
+        android:id="@+id/txt_prg_text8"
+        android:layout_width="288dp"
+        android:layout_height="220dp"
+        android:background="@color/colorDarkBlue"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.399" />
+
+    <Button
+        android:id="@+id/btn_text8"
+        android:layout_width="264dp"
+        android:layout_height="65dp"
+        android:background="@drawable/rounded_corner"
+        android:text="Запустить"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.741" />
+
+    <TextView
+        android:id="@+id/txt_text8_2"
+        android:layout_width="263dp"
+        android:layout_height="43dp"
+        android:background="@color/colorWhite"
+        android:text="@string/txt_text7_2"
+        android:textColor="@color/colorDarkBlue"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.638"
+        tools:visibility="invisible" />
+</androidx.constraintlayout.widget.ConstraintLayout>
